@@ -1,47 +1,46 @@
+██╗      █████╗ ███╗   ██╗ ██████╗ ███████╗██╗  ████████╗
+██║     ██╔══██╗████╗  ██║██╔════╝ ██╔════╝██║  ╚══██╔══╝
+██║     ███████║██╔██╗ ██║██║  ███╗█████╗  ██║     ██║   
+██║     ██╔══██║██║╚██╗██║██║   ██║██╔══╝  ██║     ██║   
+███████╗██║  ██║██║ ╚████║╚██████╔╝███████╗███████╗██║   
+╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝╚═╝   
+
 LangSMS - SMS Spoofing Tool
 
-LangSMS is an advanced SMS spoofing tool designed for cybersecurity research and educational purposes. It allows users to send spoofed messages while testing the security of SMS-based authentication systems.
+LangSMS is a powerful SMS spoofing tool for ethical hacking and cybersecurity testing. It allows users to send SMS messages with customized sender IDs.
 
 Features
-	•	Send SMS with spoofed sender ID
-	•	Multi-threaded support for high-speed message delivery
-	•	Customizable message templates
-	•	Support for various SMS gateways
-	•	User-friendly CLI interface
+	•	Send spoofed SMS messages
+	•	Multi-threaded for high performance
+	•	Proxy support for anonymity
+	•	Cool UI with an ethical hacker-friendly interface
 
 Installation
 
-Prerequisites
-
-Ensure you have the following installed on your system:
-	•	Python 3.x
-	•	Required dependencies (install using the command below)
-
-Clone the Repository
-
 git clone https://github.com/renatochuck/langsms.git
 cd langsms
-
-Install Dependencies
-
-pip install -r requirements.txt
+chmod +x setup.sh
+./setup.sh
 
 Usage
 
-Run the tool using the following command:
-
 python3 langsms.py
 
-You may need to configure your API keys or VPN settings before sending messages.
+Follow the on-screen instructions to configure and send messages.
 
-Disclaimer
+Requirements
+	•	Python 3.x
+	•	Twilio API (or another SMS gateway)
+	•	VPN for bypassing restrictions (optional)
 
-This tool is intended for educational and security research purposes only. Unauthorized use for malicious activities is strictly prohibited. The developer is not responsible for any misuse of this tool.
+Legal Disclaimer
+
+LangSMS is intended for educational and ethical purposes only. The developer is not responsible for any misuse of this tool.
 
 Contributing
 
-Pull requests are welcome! If you’d like to contribute, please fork the repository and submit a pull request.
+Feel free to fork the repo and submit pull requests to improve LangSMS.
 
-License
+Contact
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+For any issues or suggestions, open an issue on GitHub: LangSMS Repo
